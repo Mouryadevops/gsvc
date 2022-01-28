@@ -1,0 +1,5 @@
+node {
+
+  stage('versioning'){
+    echo 'retrieve build version'
+    sh 'echo version := 1.0.${env.BUILD_ID} >> build.sbt'
