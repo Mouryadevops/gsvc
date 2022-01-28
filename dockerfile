@@ -5,3 +5,6 @@ EOF
 
 # create an example file
 touch somefile.txt
+
+
+docker build [OPTIONS] -f- PATH
