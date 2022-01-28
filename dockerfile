@@ -8,3 +8,7 @@ touch somefile.txt
 
 
 docker build [OPTIONS] -f- PATH
+
+
+ Set multiple labels on one line
+LABEL com.example.version="0.0.1-beta" com.example.release-date="2015-02-12"
