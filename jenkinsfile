@@ -7,3 +7,5 @@ pipeline {
                 sh 'mnv --version'
                 
                 sh "echo version := 1.0.${env.BUILD_ID} >> build.sbt"
+	         sh "echo version := 1.0.${env.BUILD_ID} >> build.sbt"
+
